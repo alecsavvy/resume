@@ -3,56 +3,39 @@
 \usepackage[margin=0.5in]{geometry}
 \usepackage[hidelinks]{hyperref}
 \usepackage{enumitem}
-\usepackage[absolute,overlay]{textpos}
-\usepackage{changepage}
+\usepackage{paracol}
+\usepackage{calc}
 \setlist[itemize]{noitemsep, topsep=0pt, leftmargin=12pt}
 
 \pagenumbering{gobble}
 \setlength{\parindent}{0pt}
-\setlength{\TPHorizModule}{1in}
-\setlength{\TPVertModule}{1in}
+\setlength{\columnsep}{0.25in}
 
 \begin{document}
 
-\begin{textblock}{2}(5.75,0.5)
-\raggedright
+% Header with name/title on left and contact info on right
+\noindent
+\begin{minipage}[t]{0.6\textwidth}
+{\LARGE \textbf{Alec Savoy}} \\
+\textit{Senior Distributed Systems Engineer / Protocol Architect}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.35\textwidth}
+\raggedleft
 \textbf{Contact} \\
 \vspace{4pt}
 \href{https://github.com/alecsavvy}{github.com/alecsavvy} \\
 \href{https://www.linkedin.com/in/alecsavvy}{linkedin.com/in/alecsavvy} \\
 alecjsavvy@gmail.com
+\end{minipage}
 
 \vspace{10pt}
 
-\textbf{Technologies} \\
-\vspace{4pt}
+% Start two-column layout: 3/4 width left, 1/4 width right
+\columnratio{0.73}
+\begin{paracol}{2}
 
-\textbf{Languages:} \\
-Go, Rust, JavaScript/TypeScript, Scala, Python
-
-\vspace{6pt}
-
-\textbf{Protocols \& Systems:} \\
-CometBFT, Solana, Ethereum, protobuf, gRPC, ConnectRPC, REST, OpenAPI
-
-\vspace{6pt}
-
-\textbf{Data:} \\
-PostgreSQL, PebbleDB, SQLite, MongoDB
-
-\vspace{6pt}
-
-\textbf{Infra:} \\
-Docker, Kubernetes, GitHub Actions, CircleCI, Pulumi, AWS, GCP
-\end{textblock}
-
-\begin{adjustwidth}{}{2.5in}
-{\LARGE \textbf{Alec Savoy}} \\
-\vspace{2pt}
-\textit{Senior Distributed Systems Engineer / Protocol Architect}
-
-\vspace{10pt}
-
+% Left column - main content
 \textbf{Core Expertise}
 \begin{itemize}
   \item Distributed systems and protocol design across centralized services and decentralized networks
@@ -113,6 +96,40 @@ Docker, Kubernetes, GitHub Actions, CircleCI, Pulumi, AWS, GCP
   \item Developed Solidity smart contracts for game economies, including bonding curves, AMMs, staking, and ERC20/721/1155 tokens
 \end{itemize}
 
+% Switch to right column
+\switchcolumn
+
+% Right column - sidebar content
+\vspace{4pt}
+
+\textbf{Languages:} \\
+Go, Rust, JavaScript/TypeScript, Scala, Python
+
+\vspace{6pt}
+
+\textbf{Protocols \& Systems:} \\
+CometBFT, Solana, Ethereum, protobuf, gRPC, ConnectRPC, REST, OpenAPI
+
+\vspace{6pt}
+
+\textbf{Data:} \\
+PostgreSQL, PebbleDB, SQLite, MongoDB
+
+\vspace{6pt}
+
+\textbf{Infra:} \\
+Docker, Kubernetes, GitHub Actions, CircleCI, Pulumi, AWS, GCP
+
+\vspace{10pt}
+
+\textbf{Education} \\
+\textbf{University of Oregon} \\
+2014 -- 2018 \\
+B.S. Spatial Data Science
+
+\end{paracol}
+
+% Continue with full-width content after right column ends
 \vspace{8pt}
 
 \textbf{Resonant Systems} \\
@@ -138,12 +155,5 @@ Docker, Kubernetes, GitHub Actions, CircleCI, Pulumi, AWS, GCP
 \begin{itemize}
   \item Exploring merch purchasing and distribution using cryptographic proofs for live events
 \end{itemize}
-
-\vspace{10pt}
-
-\textbf{Education} \\
-\textbf{University of Oregon} \hfill 2014 -- 2018 \\
-B.S. Spatial Data Science and Technology
-\end{adjustwidth}
 
 \end{document}

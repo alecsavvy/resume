@@ -1,31 +1,19 @@
-::: textblock
-1.75(6,0.75)
+::: minipage
+**Alec Savoy**\
+*Senior Distributed Systems Engineer / Protocol Architect*
+:::
 
+::: minipage
 **Contact**\
 [github.com/alecsavvy](https://github.com/alecsavvy)\
 [linkedin.com/in/alecsavvy](https://www.linkedin.com/in/alecsavvy)\
 alecjsavvy@gmail.com
-
-**Technologies**\
-
-**Languages:**\
-`Go, Rust, JavaScript/TypeScript, Scala, Python`
-
-**Protocols & Systems:**\
-`CometBFT, Solana, Ethereum, protobuf, gRPC, ConnectRPC, REST, OpenAPI`
-
-**Data:**\
-`PostgreSQL, PebbleDB, SQLite, MongoDB`
-
-**Infra:**\
-`Docker, Kubernetes, GitHub Actions, CircleCI, Pulumi, AWS, GCP`
 :::
 
-::: adjustwidth
-1.75in **Alec Savoy**\
-*Senior Distributed Systems Engineer / Protocol Architect*
+::: paracol
+2
 
-# Core Expertise {#core-expertise .unnumbered}
+**Core Expertise**
 
 - Distributed systems and protocol design across centralized services
   and decentralized networks
@@ -41,11 +29,10 @@ alecjsavvy@gmail.com
 - Production infrastructure and DevOps across centralized cloud and
   decentralized validator networks
 
-# Experience {#experience .unnumbered}
+**Experience**
 
 **Audius**\
-*Senior Software Engineer* [Jan. 2023 -- Dec.
-2025]{style="color: sectiongray"}
+*Senior Software Engineer* Jan. 2023 -- Dec. 2025
 
 [**Audius Protocol**](https://github.com/AudiusProject/apps)
 
@@ -77,8 +64,7 @@ alecjsavvy@gmail.com
   [community](https://twitter.com/OpenAudioProto)
 
 **First Foundry**\
-*Lead/Senior Software Engineer* [Apr. 2017 -- Jan.
-2023]{style="color: sectiongray"}
+*Lead/Senior Software Engineer* Apr. 2017 -- Jan. 2023
 
 **Rally.io**\
 
@@ -109,9 +95,28 @@ alecjsavvy@gmail.com
 - Developed Solidity smart contracts for game economies, including
   bonding curves, AMMs, staking, and ERC20/721/1155 tokens
 
+**Technologies**\
+
+**Languages:**\
+Go, Rust, JavaScript/TypeScript, Scala, Python
+
+**Protocols & Systems:**\
+CometBFT, Solana, Ethereum, protobuf, gRPC, ConnectRPC, REST, OpenAPI
+
+**Data:**\
+PostgreSQL, PebbleDB, SQLite, MongoDB
+
+**Infra:**\
+Docker, Kubernetes, GitHub Actions, CircleCI, Pulumi, AWS, GCP
+
+**Education**\
+**University of Oregon**\
+2014 -- 2018\
+B.S. Spatial Data Science
+:::
+
 **Resonant Systems**\
-*Founder / Principal Engineer* [Dec. 2025 --
-Present]{style="color: sectiongray"}
+*Founder / Principal Engineer* Dec. 2025 -- Present
 
 [**Shreddr**](https://github.com/alecsavvy/shreddr)
 
@@ -134,9 +139,3 @@ Present]{style="color: sectiongray"}
 
 - Exploring merch purchasing and distribution using cryptographic proofs
   for live events
-
-# Education {#education .unnumbered}
-
-**University of Oregon** [2014 -- 2018]{style="color: sectiongray"}\
-B.S. Spatial Data Science and Technology
-:::
