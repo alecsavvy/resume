@@ -27,6 +27,9 @@ alecjsavvy@gmail.com
 
 - Infrastructure and DevOps for various cloud and validator networks
 
+**University of Oregon**\
+*B.S. Spatial Data Science* 2014 -- 2018
+
 **Languages**\
 Go, Rust, JavaScript/TypeScript, Scala, Python
 
@@ -136,8 +139,3 @@ Computing Center
 - Exploring cryptographic proof-based merch purchasing and distribution
   for live events
 :::
-
-**Education**
-
-**University of Oregon**\
-*B.S. Spatial Data Science* 2014 -- 2018
