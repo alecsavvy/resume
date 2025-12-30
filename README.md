@@ -1,11 +1,31 @@
-**Alec Savoy**\
-*Senior Distributed Systems Engineer / Protocol Architect*
+::: textblock
+1.75(6,0.75)
 
-[github.com/alecsavvy](https://github.com/alecsavvy) \|
-[linkedin.com/in/alecsavvy](https://www.linkedin.com/in/alecsavvy) \|
+**Contact**\
+[github.com/alecsavvy](https://github.com/alecsavvy)\
+[linkedin.com/in/alecsavvy](https://www.linkedin.com/in/alecsavvy)\
 alecjsavvy@gmail.com
 
-**Core Expertise**
+**Technologies**\
+
+**Languages:**\
+`Go, Rust, JavaScript/TypeScript, Scala, Python`
+
+**Protocols & Systems:**\
+`CometBFT, Solana, Ethereum, protobuf, gRPC, ConnectRPC, REST, OpenAPI`
+
+**Data:**\
+`PostgreSQL, PebbleDB, SQLite, MongoDB`
+
+**Infra:**\
+`Docker, Kubernetes, GitHub Actions, CircleCI, Pulumi, AWS, GCP`
+:::
+
+::: adjustwidth
+1.75in **Alec Savoy**\
+*Senior Distributed Systems Engineer / Protocol Architect*
+
+# Core Expertise {#core-expertise .unnumbered}
 
 - Distributed systems and protocol design across centralized services
   and decentralized networks
@@ -21,18 +41,11 @@ alecjsavvy@gmail.com
 - Production infrastructure and DevOps across centralized cloud and
   decentralized validator networks
 
-**Technologies**\
-**Languages:** `Go, Rust, JavaScript/TypeScript, Scala, Python`\
-**Protocols & Systems:**
-`CometBFT, Solana, Ethereum, protobuf, gRPC, ConnectRPC, REST, OpenAPI`\
-**Data:** `PostgreSQL, PebbleDB, SQLite, MongoDB`\
-**Infra:**
-`Docker, Kubernetes, GitHub Actions, CircleCI, Pulumi, AWS, GCP`
+# Experience {#experience .unnumbered}
 
-**Experience**
-
-**Audius** Jan. 2023 -- Dec. 2025\
-*Senior Software Engineer*
+**Audius**\
+*Senior Software Engineer* [Jan. 2023 -- Dec.
+2025]{style="color: sectiongray"}
 
 [**Audius Protocol**](https://github.com/AudiusProject/apps)
 
@@ -63,10 +76,11 @@ alecjsavvy@gmail.com
   [brand](https://openaudio.org) and
   [community](https://twitter.com/OpenAudioProto)
 
-**First Foundry** Apr. 2017 -- Jan. 2023\
-*Lead/Senior Software Engineer*
+**First Foundry**\
+*Lead/Senior Software Engineer* [Apr. 2017 -- Jan.
+2023]{style="color: sectiongray"}
 
-**Rally.io**
+**Rally.io**\
 
 - Built backend services for creator tokens using Akka, PostgreSQL,
   MongoDB, and Kafka
@@ -95,8 +109,9 @@ alecjsavvy@gmail.com
 - Developed Solidity smart contracts for game economies, including
   bonding curves, AMMs, staking, and ERC20/721/1155 tokens
 
-**Resonant Systems** Dec. 2025 -- Present\
-*Founder / Principal Engineer*
+**Resonant Systems**\
+*Founder / Principal Engineer* [Dec. 2025 --
+Present]{style="color: sectiongray"}
 
 [**Shreddr**](https://github.com/alecsavvy/shreddr)
 
@@ -120,5 +135,8 @@ alecjsavvy@gmail.com
 - Exploring merch purchasing and distribution using cryptographic proofs
   for live events
 
-**Education**\
-University of Oregon, B.S. Spatial Data Science and Technology (2018)
+# Education {#education .unnumbered}
+
+**University of Oregon** [2014 -- 2018]{style="color: sectiongray"}\
+B.S. Spatial Data Science and Technology
+:::

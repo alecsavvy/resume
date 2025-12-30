@@ -1,22 +1,55 @@
-\documentclass[11pt]{article}
+\documentclass[10pt]{article}
 
-\usepackage[margin=0.75in]{geometry}
+\usepackage[margin=0.5in]{geometry}
 \usepackage[hidelinks]{hyperref}
 \usepackage{enumitem}
-\setlist[itemize]{noitemsep, topsep=0pt}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{changepage}
+\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=12pt}
 
 \pagenumbering{gobble}
 \setlength{\parindent}{0pt}
+\setlength{\TPHorizModule}{1in}
+\setlength{\TPVertModule}{1in}
 
 \begin{document}
 
+\begin{textblock}{2}(5.75,0.5)
+\raggedright
+\textbf{Contact} \\
+\vspace{4pt}
+\href{https://github.com/alecsavvy}{github.com/alecsavvy} \\
+\href{https://www.linkedin.com/in/alecsavvy}{linkedin.com/in/alecsavvy} \\
+alecjsavvy@gmail.com
+
+\vspace{10pt}
+
+\textbf{Technologies} \\
+\vspace{4pt}
+
+\textbf{Languages:} \\
+Go, Rust, JavaScript/TypeScript, Scala, Python
+
+\vspace{6pt}
+
+\textbf{Protocols \& Systems:} \\
+CometBFT, Solana, Ethereum, protobuf, gRPC, ConnectRPC, REST, OpenAPI
+
+\vspace{6pt}
+
+\textbf{Data:} \\
+PostgreSQL, PebbleDB, SQLite, MongoDB
+
+\vspace{6pt}
+
+\textbf{Infra:} \\
+Docker, Kubernetes, GitHub Actions, CircleCI, Pulumi, AWS, GCP
+\end{textblock}
+
+\begin{adjustwidth}{}{2.5in}
 {\LARGE \textbf{Alec Savoy}} \\
 \vspace{2pt}
 \textit{Senior Distributed Systems Engineer / Protocol Architect}
-
-\href{https://github.com/alecsavvy}{github.com/alecsavvy} \;|\;
-\href{https://www.linkedin.com/in/alecsavvy}{linkedin.com/in/alecsavvy} \;|\;
-alecjsavvy@gmail.com
 
 \vspace{10pt}
 
@@ -30,25 +63,16 @@ alecjsavvy@gmail.com
   \item Production infrastructure and DevOps across centralized cloud and decentralized validator networks
 \end{itemize}
 
-\vspace{6pt}
-
-\textbf{Technologies} \\
-
-\textbf{Languages:} \texttt{Go, Rust, JavaScript/TypeScript, Scala, Python} \\
-\textbf{Protocols \& Systems:} \texttt{CometBFT, Solana, Ethereum, protobuf, gRPC, ConnectRPC, REST, OpenAPI} \\
-\textbf{Data:} \texttt{PostgreSQL, PebbleDB, SQLite, MongoDB} \\
-\textbf{Infra:} \texttt{Docker, Kubernetes, GitHub Actions, CircleCI, Pulumi, AWS, GCP}
-
-
-\vspace{12pt}
+\vspace{10pt}
 
 \textbf{Experience}
 
 \vspace{6pt}
 
-\textbf{Audius} \hfill Jan. 2023 -- Dec. 2025 \\
-\textit{Senior Software Engineer}
+\textbf{Audius} \\
+\textit{Senior Software Engineer} \hfill Jan. 2023 -- Dec. 2025
 
+\vspace{4pt}
 \href{https://github.com/AudiusProject/apps}{\textbf{Audius Protocol}}
 \begin{itemize}
   \item Designed and released a typescript-based plugin system for the Audius Protocol (Pedalboard)
@@ -56,6 +80,7 @@ alecjsavvy@gmail.com
   \item Decreased on-call events from weekly to quarterly by moving to the OpenAudio Protocol
 \end{itemize}
 
+\vspace{4pt}
 \href{https://github.com/OpenAudio/go-openaudio}{\textbf{OpenAudio Protocol}}
 \begin{itemize}
   \item Prototyped, implemented, and released the first Layer 1 protocol for music distribution and interoperability
@@ -67,16 +92,18 @@ alecjsavvy@gmail.com
 
 \vspace{8pt}
 
-\textbf{First Foundry} \hfill Apr. 2017 -- Jan. 2023 \\
-\textit{Lead/Senior Software Engineer}
+\textbf{First Foundry} \\
+\textit{Lead/Senior Software Engineer} \hfill Apr. 2017 -- Jan. 2023
 
-\textbf{Rally.io}
+\vspace{4pt}
+\textbf{Rally.io} \\
 \begin{itemize}
   \item Built backend services for creator tokens using Akka, PostgreSQL, MongoDB, and Kafka
   \item Integrated with live Twitch event streams to power real-time games, leaderboards, and viewer rewards
   \item Developed a Twitch extension and bot for viewers to interact with the platform and earn rewards
 \end{itemize}
 
+\vspace{4pt}
 \textbf{Forte.io}
 \begin{itemize}
   \item Developed blockchain tooling for game economies and external partner integrations using Rust, RabbitMQ, PostgreSQL, OpenEthereum(Parity), and Redis
@@ -88,9 +115,10 @@ alecjsavvy@gmail.com
 
 \vspace{8pt}
 
-\textbf{Resonant Systems} \hfill Dec. 2025 -- Present \\
-\textit{Founder / Principal Engineer}
+\textbf{Resonant Systems} \\
+\textit{Founder / Principal Engineer} \hfill Dec. 2025 -- Present
 
+\vspace{4pt}
 \href{https://github.com/alecsavvy/shreddr}{\textbf{Shreddr}}
 \begin{itemize}
   \item Designed cryptographic ticketing and access-control systems for live events
@@ -98,12 +126,14 @@ alecjsavvy@gmail.com
   \item Used Coinflow and Phantom Connect for payments and wallet integration
 \end{itemize}
 
+\vspace{4pt}
 \href{https://github.com/alecsavvy/mojave}{\textbf{Mojave}}
 \begin{itemize}
   \item Designing and implementing a decentralized media distribution network with validator-operated storage
   \item Building CometBFT-based consensus, encrypted asset storage, and metadata pipelines  
 \end{itemize}
 
+\vspace{4pt}
 \href{https://github.com/alecsavvy/stashd}{\textbf{Stashd}}
 \begin{itemize}
   \item Exploring merch purchasing and distribution using cryptographic proofs for live events
@@ -112,6 +142,8 @@ alecjsavvy@gmail.com
 \vspace{10pt}
 
 \textbf{Education} \\
-University of Oregon, B.S. Spatial Data Science and Technology (2018)
+\textbf{University of Oregon} \hfill 2014 -- 2018 \\
+B.S. Spatial Data Science and Technology
+\end{adjustwidth}
 
 \end{document}
