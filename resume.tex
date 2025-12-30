@@ -31,11 +31,11 @@ alecjsavvy@gmail.com
 
 \vspace{6pt}
 
-% Start two-column layout: 3/4 width left, 1/4 width right
-\columnratio{0.73}
+% Block 2: Core Expertise on left, Technologies on right (50/50)
+\columnratio{0.5}
 \begin{paracol}{2}
 
-% Left column - main content
+% Left column - Core Expertise
 \textbf{Core Expertise}
 \begin{itemize}
   \item Distributed systems and protocol design across centralized services and decentralized networks
@@ -46,42 +46,10 @@ alecjsavvy@gmail.com
   \item Production infrastructure and DevOps across centralized cloud and decentralized validator networks
 \end{itemize}
 
-\vspace{8pt}
-
-\textbf{Experience}
-
-\vspace{4pt}
-
-\textbf{Audius} \\
-\textit{Senior Software Engineer} \hfill Jan. 2023 -- Dec. 2025
-
-\vspace{4pt}
-\hspace{12pt}\begin{minipage}[t]{\dimexpr\linewidth-12pt}
-\href{https://github.com/AudiusProject/apps}{\textbf{Audius Protocol}}
-\begin{itemize}
-  \item Designed and released a typescript-based plugin system for the Audius Protocol (Pedalboard)
-  \item Moved high-throughput write and play paths off Solana into an in-house Layer 1, reducing RPC load and improving throughput
-  \item Decreased on-call events from weekly to quarterly by moving to the OpenAudio Protocol
-\end{itemize}
-\end{minipage}
-
-\vspace{2pt}
-\hspace{12pt}\begin{minipage}[t]{\dimexpr\linewidth-12pt}
-\href{https://github.com/OpenAudio/go-openaudio}{\textbf{OpenAudio Protocol}}
-\begin{itemize}
-  \item Prototyped, implemented, and released the first Layer 1 protocol for music distribution and interoperability
-  \item Open-sourced and maintained validator, block explorer, and schema repositories
-  \item Migrated the Audius Protocol to OpenAudio with zero downtime
-  \item Released the OpenAudio \href{https://openaudio.org}{brand} and \href{https://twitter.com/OpenAudioProto}{community}
-\end{itemize}
-\end{minipage}
-
 % Switch to right column
 \switchcolumn
 
-% Right column - sidebar content
-\vspace{4pt}
-
+% Right column - Technologies
 \textbf{Languages:} \\
 Go, Rust, JavaScript/TypeScript, Scala, Python
 
@@ -100,16 +68,39 @@ PostgreSQL, PebbleDB, SQLite, MongoDB
 \textbf{Infra:} \\
 Docker, Kubernetes, GitHub Actions, CircleCI, Pulumi, AWS, GCP
 
-\vspace{10pt}
-
-\textbf{Education} \\
-\textbf{University of Oregon} \\
-B.S. Spatial Data Science \\
-2014 -- 2018
-
 \end{paracol}
 
-% Continue with full-width content after right column ends
+\vspace{8pt}
+
+% Block 3: Experience (full width)
+\textbf{Experience}
+
+\vspace{4pt}
+
+\textbf{Audius} \\
+\textit{Senior Software Engineer} \hfill Jan. 2023 -- Dec. 2025
+
+\vspace{4pt}
+\hspace{12pt}\begin{minipage}[t]{\dimexpr\linewidth-12pt}
+\href{https://github.com/AudiusProject/apps}{Audius Protocol}
+\begin{itemize}
+  \item Designed and released a typescript-based plugin system for the Audius Protocol (Pedalboard)
+  \item Moved high-throughput write and play paths off Solana into an in-house Layer 1, reducing RPC load and improving throughput
+  \item Decreased on-call events from weekly to quarterly by moving to the OpenAudio Protocol
+\end{itemize}
+\end{minipage}
+
+\vspace{2pt}
+\hspace{12pt}\begin{minipage}[t]{\dimexpr\linewidth-12pt}
+\href{https://github.com/OpenAudio/go-openaudio}{OpenAudio Protocol}
+\begin{itemize}
+  \item Prototyped, implemented, and released the first Layer 1 protocol for music distribution and interoperability
+  \item Open-sourced and maintained validator, block explorer, and schema repositories
+  \item Migrated the Audius Protocol to OpenAudio with zero downtime
+  \item Released the OpenAudio \href{https://openaudio.org}{brand} and \href{https://twitter.com/OpenAudioProto}{community}
+\end{itemize}
+\end{minipage}
+
 \vspace{4pt}
 
 \textbf{First Foundry} \\
@@ -117,7 +108,7 @@ B.S. Spatial Data Science \\
 
 \vspace{4pt}
 \hspace{12pt}\begin{minipage}[t]{\dimexpr\linewidth-12pt}
-\textbf{Rally.io}
+Rally.io
 \begin{itemize}
   \item Built backend services for creator tokens using Akka, PostgreSQL, MongoDB, and Kafka
   \item Integrated with live Twitch event streams to power real-time games, leaderboards, and viewer rewards
@@ -126,11 +117,26 @@ B.S. Spatial Data Science \\
 
 \vspace{2pt}
 \hspace{12pt}\begin{minipage}[t]{\dimexpr\linewidth-12pt}
-\textbf{Forte.io}
+Forte.io
 \begin{itemize}
   \item Developed blockchain tooling for game economies using Rust, RabbitMQ, PostgreSQL, and OpenEthereum
   \item Converted entire project from synchronous to asynchronous Rust, introducing tokio and async/await
   \item Developed Solidity smart contracts including bonding curves, AMMs, staking, and ERC20/721/1155 tokens
+\end{itemize}
+\end{minipage}
+
+\vspace{4pt}
+
+\textbf{University of Oregon} \\
+\textit{Technology Service Desk Analyst} \hfill Apr. 2016 -- Jun. 2017
+
+\vspace{4pt}
+\hspace{12pt}\begin{minipage}[t]{\dimexpr\linewidth-12pt}
+Computing Center
+\begin{itemize}
+  \item Provided technical support for students, staff, and faculty through walk-in, phone, and email channels
+  \item Managed ticket queue using RT request tracking system
+  \item Maintained technical documentation in Confluence
 \end{itemize}
 \end{minipage}
 
@@ -141,7 +147,7 @@ B.S. Spatial Data Science \\
 
 \vspace{4pt}
 \hspace{12pt}\begin{minipage}[t]{\dimexpr\linewidth-12pt}
-\href{https://github.com/alecsavvy/shreddr}{\textbf{Shreddr}}
+\href{https://github.com/alecsavvy/shreddr}{Shreddr}
 \begin{itemize}
   \item Designed cryptographic ticketing and access-control systems for live events with payment and on-chain verification
 \end{itemize}
@@ -149,7 +155,7 @@ B.S. Spatial Data Science \\
 
 \vspace{2pt}
 \hspace{12pt}\begin{minipage}[t]{\dimexpr\linewidth-12pt}
-\href{https://github.com/alecsavvy/mojave}{\textbf{Mojave}}
+\href{https://github.com/alecsavvy/mojave}{Mojave}
 \begin{itemize}
   \item Designing decentralized media distribution network with validator-operated storage and encrypted assets
 \end{itemize}
@@ -157,10 +163,15 @@ B.S. Spatial Data Science \\
 
 \vspace{2pt}
 \hspace{12pt}\begin{minipage}[t]{\dimexpr\linewidth-12pt}
-\href{https://github.com/alecsavvy/stashd}{\textbf{Stashd}}
+\href{https://github.com/alecsavvy/stashd}{Stashd}
 \begin{itemize}
   \item Exploring cryptographic proof-based merch purchasing and distribution for live events
 \end{itemize}
 \end{minipage}
+
+\vspace{4pt}
+
+\textbf{University of Oregon} \\
+\textit{B.S. Spatial Data Science} \hfill 2014 -- 2018
 
 \end{document}
