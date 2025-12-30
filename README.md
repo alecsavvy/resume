@@ -50,17 +50,12 @@ alecjsavvy@gmail.com
 - Prototyped, implemented, and released the first Layer 1 protocol for
   music distribution and interoperability
 
-- Used CometBFT for consensus, PostgreSQL for metadata storage, and
-  gRPC/ConnectRPC for node APIs
-
 - Open-sourced and maintained validator, block explorer, and schema
   repositories
 
-- Migrated the Audius Protocol to OpenAudio with zero downtime and no
-  user-facing disruption
+- Migrated the Audius Protocol to OpenAudio with zero downtime
 
-- Worked with the executives at Audius to release the OpenAudio
-  [brand](https://openaudio.org) and
+- Released the OpenAudio [brand](https://openaudio.org) and
   [community](https://twitter.com/OpenAudioProto)
 
 **First Foundry**\
@@ -74,28 +69,16 @@ alecjsavvy@gmail.com
 - Integrated with live Twitch event streams to power real-time games,
   leaderboards, and viewer rewards
 
-- Developed a Twitch extension and bot for viewers to interact with the
-  platform and earn rewards
-
 **Forte.io**
 
-- Developed blockchain tooling for game economies and external partner
-  integrations using Rust, RabbitMQ, PostgreSQL, OpenEthereum(Parity),
-  and Redis
+- Developed blockchain tooling for game economies using Rust, RabbitMQ,
+  PostgreSQL, and OpenEthereum
 
-- Converted the entire project from synchronous rust to asynchronous
-  rust, introduced tokio and async/await, and improved performance and
-  scalability
+- Converted entire project from synchronous to asynchronous Rust,
+  introducing tokio and async/await
 
-- Introduced Kafka/RabbitMQ for message-based multi-step workflows and
-  event-driven architecture
-
-- Contributed to protocol-level architecture and API design
-
-- Developed Solidity smart contracts for game economies, including
-  bonding curves, AMMs, staking, and ERC20/721/1155 tokens
-
-**Technologies**\
+- Developed Solidity smart contracts including bonding curves, AMMs,
+  staking, and ERC20/721/1155 tokens
 
 **Languages:**\
 Go, Rust, JavaScript/TypeScript, Scala, Python
@@ -111,8 +94,8 @@ Docker, Kubernetes, GitHub Actions, CircleCI, Pulumi, AWS, GCP
 
 **Education**\
 **University of Oregon**\
-2014 -- 2018\
-B.S. Spatial Data Science
+B.S. Spatial Data Science\
+2014 -- 2018
 :::
 
 **Resonant Systems**\
@@ -121,21 +104,14 @@ B.S. Spatial Data Science
 [**Shreddr**](https://github.com/alecsavvy/shreddr)
 
 - Designed cryptographic ticketing and access-control systems for live
-  events
-
-- Built backend services integrating payments and on-chain verification
-
-- Used Coinflow and Phantom Connect for payments and wallet integration
+  events with payment and on-chain verification
 
 [**Mojave**](https://github.com/alecsavvy/mojave)
 
-- Designing and implementing a decentralized media distribution network
-  with validator-operated storage
-
-- Building CometBFT-based consensus, encrypted asset storage, and
-  metadata pipelines
+- Designing decentralized media distribution network with
+  validator-operated storage and encrypted assets
 
 [**Stashd**](https://github.com/alecsavvy/stashd)
 
-- Exploring merch purchasing and distribution using cryptographic proofs
+- Exploring cryptographic proof-based merch purchasing and distribution
   for live events
