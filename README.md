@@ -25,19 +25,19 @@ alecjsavvy@gmail.com
 
 - Event-driven architecture and messaging
 
-- Infrastructure and DevOps for cloud and validator networks
+- Infrastructure and DevOps for various cloud and validator networks
 
 **Languages**\
 Go, Rust, JavaScript/TypeScript, Scala, Python
 
 **Protocols & Systems**\
-CometBFT, Solana, Ethereum, protobuf, gRPC, ConnectRPC, REST, OpenAPI
+CometBFT, Solana, Ethereum, gRPC, ConnectRPC
+
+**Infra**\
+Docker, Kubernetes, GitHub Actions, CircleCI, Pulumi
 
 **Data**\
 PostgreSQL, PebbleDB, SQLite, MongoDB
-
-**Infra**\
-Docker, Kubernetes, GitHub Actions, CircleCI, Pulumi, AWS, GCP
 :::
 
 **Experience**
@@ -136,6 +136,8 @@ Computing Center
 - Exploring cryptographic proof-based merch purchasing and distribution
   for live events
 :::
+
+**Education**
 
 **University of Oregon**\
 *B.S. Spatial Data Science* 2014 -- 2018
