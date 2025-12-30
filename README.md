@@ -58,6 +58,24 @@ alecjsavvy@gmail.com
 - Released the OpenAudio [brand](https://openaudio.org) and
   [community](https://twitter.com/OpenAudioProto)
 
+**Languages:**\
+Go, Rust, JavaScript/TypeScript, Scala, Python
+
+**Protocols & Systems:**\
+CometBFT, Solana, Ethereum, protobuf, gRPC, ConnectRPC, REST, OpenAPI
+
+**Data:**\
+PostgreSQL, PebbleDB, SQLite, MongoDB
+
+**Infra:**\
+Docker, Kubernetes, GitHub Actions, CircleCI, Pulumi, AWS, GCP
+
+**Education**\
+**University of Oregon**\
+B.S. Spatial Data Science\
+2014 -- 2018
+:::
+
 **First Foundry**\
 *Lead/Senior Software Engineer* Apr. 2017 -- Jan. 2023
 
@@ -79,24 +97,6 @@ alecjsavvy@gmail.com
 
 - Developed Solidity smart contracts including bonding curves, AMMs,
   staking, and ERC20/721/1155 tokens
-
-**Languages:**\
-Go, Rust, JavaScript/TypeScript, Scala, Python
-
-**Protocols & Systems:**\
-CometBFT, Solana, Ethereum, protobuf, gRPC, ConnectRPC, REST, OpenAPI
-
-**Data:**\
-PostgreSQL, PebbleDB, SQLite, MongoDB
-
-**Infra:**\
-Docker, Kubernetes, GitHub Actions, CircleCI, Pulumi, AWS, GCP
-
-**Education**\
-**University of Oregon**\
-B.S. Spatial Data Science\
-2014 -- 2018
-:::
 
 **Resonant Systems**\
 *Founder / Principal Engineer* Dec. 2025 -- Present
