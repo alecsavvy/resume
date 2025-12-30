@@ -1,40 +1,52 @@
+::: minipage
 **Alec Savoy**\
 *Senior Distributed Systems Engineer / Protocol Architect*
+:::
 
-[github.com/alecsavvy](https://github.com/alecsavvy) \|
-[linkedin.com/in/alecsavvy](https://www.linkedin.com/in/alecsavvy) \|
+::: minipage
+**Contact**\
+[github.com/alecsavvy](https://github.com/alecsavvy)\
+[linkedin.com/in/alecsavvy](https://www.linkedin.com/in/alecsavvy)\
 alecjsavvy@gmail.com
+:::
+
+::: paracol
+2
 
 **Core Expertise**
 
-- Distributed systems and protocol design across centralized services
-  and decentralized networks
+- Protocol design for centralized and decentralized systems
 
-- Cryptographic primitives, key management, and signing workflows
+- Cryptographic primitives and key management
 
-- Content-addressed storage, replication, and data integrity
+- Content-addressed storage and data integrity
 
-- Payments, wallets, and on-chain/off-chain coordination
+- Payments, wallets, and blockchain coordination
 
-- Event-driven architecture and message-based workflows
+- Event-driven architecture and messaging
 
-- Production infrastructure and DevOps across centralized cloud and
-  decentralized validator networks
+- Infrastructure and DevOps for cloud and validator networks
 
-**Technologies**\
-**Languages:** `Go, Rust, JavaScript/TypeScript, Scala, Python`\
-**Protocols & Systems:**
-`CometBFT, Solana, Ethereum, protobuf, gRPC, ConnectRPC, REST, OpenAPI`\
-**Data:** `PostgreSQL, PebbleDB, SQLite, MongoDB`\
-**Infra:**
-`Docker, Kubernetes, GitHub Actions, CircleCI, Pulumi, AWS, GCP`
+**Languages**\
+Go, Rust, JavaScript/TypeScript, Scala, Python
+
+**Protocols & Systems**\
+CometBFT, Solana, Ethereum, protobuf, gRPC, ConnectRPC, REST, OpenAPI
+
+**Data**\
+PostgreSQL, PebbleDB, SQLite, MongoDB
+
+**Infra**\
+Docker, Kubernetes, GitHub Actions, CircleCI, Pulumi, AWS, GCP
+:::
 
 **Experience**
 
-**Audius** Jan. 2023 -- Dec. 2025\
-*Senior Software Engineer*
+**Audius**\
+*Senior Software Engineer* Jan. 2023 -- Dec. 2025
 
-[**Audius Protocol**](https://github.com/AudiusProject/apps)
+::: minipage
+[Audius Protocol](https://github.com/AudiusProject/apps)
 
 - Designed and released a typescript-based plugin system for the Audius
   Protocol (Pedalboard)
@@ -44,81 +56,86 @@ alecjsavvy@gmail.com
 
 - Decreased on-call events from weekly to quarterly by moving to the
   OpenAudio Protocol
+:::
 
-[**OpenAudio Protocol**](https://github.com/OpenAudio/go-openaudio)
+::: minipage
+[OpenAudio Protocol](https://github.com/OpenAudio/go-openaudio)
 
 - Prototyped, implemented, and released the first Layer 1 protocol for
   music distribution and interoperability
 
-- Used CometBFT for consensus, PostgreSQL for metadata storage, and
-  gRPC/ConnectRPC for node APIs
-
 - Open-sourced and maintained validator, block explorer, and schema
   repositories
 
-- Migrated the Audius Protocol to OpenAudio with zero downtime and no
-  user-facing disruption
+- Migrated the Audius Protocol to OpenAudio with zero downtime
 
-- Worked with the executives at Audius to release the OpenAudio
-  [brand](https://openaudio.org) and
+- Released the OpenAudio [brand](https://openaudio.org) and
   [community](https://twitter.com/OpenAudioProto)
+:::
 
-**First Foundry** Apr. 2017 -- Jan. 2023\
-*Lead/Senior Software Engineer*
+**First Foundry**\
+*Lead/Senior Software Engineer* Apr. 2017 -- Jan. 2023
 
-**Rally.io**
+::: minipage
+Rally.io
 
 - Built backend services for creator tokens using Akka, PostgreSQL,
   MongoDB, and Kafka
 
 - Integrated with live Twitch event streams to power real-time games,
   leaderboards, and viewer rewards
+:::
 
-- Developed a Twitch extension and bot for viewers to interact with the
-  platform and earn rewards
+::: minipage
+Forte.io
 
-**Forte.io**
+- Developed blockchain tooling for game economies using Rust, RabbitMQ,
+  PostgreSQL, and OpenEthereum
 
-- Developed blockchain tooling for game economies and external partner
-  integrations using Rust, RabbitMQ, PostgreSQL, OpenEthereum(Parity),
-  and Redis
+- Converted entire project from synchronous to asynchronous Rust,
+  introducing tokio and async/await
 
-- Converted the entire project from synchronous rust to asynchronous
-  rust, introduced tokio and async/await, and improved performance and
-  scalability
+- Developed Solidity smart contracts including bonding curves, AMMs,
+  staking, and ERC20/721/1155 tokens
+:::
 
-- Introduced Kafka/RabbitMQ for message-based multi-step workflows and
-  event-driven architecture
+**University of Oregon**\
+*Technology Service Desk Analyst* Apr. 2016 -- Jun. 2017
 
-- Contributed to protocol-level architecture and API design
+::: minipage
+Computing Center
 
-- Developed Solidity smart contracts for game economies, including
-  bonding curves, AMMs, staking, and ERC20/721/1155 tokens
+- Provided technical support for students, staff, and faculty through
+  walk-in, phone, and email channels
 
-**Resonant Systems** Dec. 2025 -- Present\
-*Founder / Principal Engineer*
+- Managed ticket queue using RT request tracking system
 
-[**Shreddr**](https://github.com/alecsavvy/shreddr)
+- Maintained technical documentation in Confluence
+:::
+
+**Resonant Systems**\
+*Founder / Principal Engineer* Dec. 2025 -- Present
+
+::: minipage
+[Shreddr](https://github.com/alecsavvy/shreddr)
 
 - Designed cryptographic ticketing and access-control systems for live
-  events
+  events with payment and on-chain verification
+:::
 
-- Built backend services integrating payments and on-chain verification
+::: minipage
+[Mojave](https://github.com/alecsavvy/mojave)
 
-- Used Coinflow and Phantom Connect for payments and wallet integration
+- Designing decentralized media distribution network with
+  validator-operated storage and encrypted assets
+:::
 
-[**Mojave**](https://github.com/alecsavvy/mojave)
+::: minipage
+[Stashd](https://github.com/alecsavvy/stashd)
 
-- Designing and implementing a decentralized media distribution network
-  with validator-operated storage
-
-- Building CometBFT-based consensus, encrypted asset storage, and
-  metadata pipelines
-
-[**Stashd**](https://github.com/alecsavvy/stashd)
-
-- Exploring merch purchasing and distribution using cryptographic proofs
+- Exploring cryptographic proof-based merch purchasing and distribution
   for live events
+:::
 
-**Education**\
-University of Oregon, B.S. Spatial Data Science and Technology (2018)
+**University of Oregon**\
+*B.S. Spatial Data Science* 2014 -- 2018

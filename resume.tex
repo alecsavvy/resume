@@ -1,117 +1,181 @@
-\documentclass[11pt]{article}
+\documentclass[10pt]{article}
 
-\usepackage[margin=0.75in]{geometry}
+\usepackage[margin=0.5in]{geometry}
 \usepackage[hidelinks]{hyperref}
 \usepackage{enumitem}
-\setlist[itemize]{noitemsep, topsep=0pt}
+\usepackage{paracol}
+\usepackage{calc}
+\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=12pt}
 
 \pagenumbering{gobble}
 \setlength{\parindent}{0pt}
+\setlength{\columnsep}{0.25in}
 
 \begin{document}
 
+% Header with name/title on left and contact info on right
+\noindent
+\begin{minipage}[t]{0.6\textwidth}
 {\LARGE \textbf{Alec Savoy}} \\
-\vspace{2pt}
 \textit{Senior Distributed Systems Engineer / Protocol Architect}
-
-\href{https://github.com/alecsavvy}{github.com/alecsavvy} \;|\;
-\href{https://www.linkedin.com/in/alecsavvy}{linkedin.com/in/alecsavvy} \;|\;
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.35\textwidth}
+\raggedleft
+\textbf{Contact} \\
+\vspace{4pt}
+\href{https://github.com/alecsavvy}{github.com/alecsavvy} \\
+\href{https://www.linkedin.com/in/alecsavvy}{linkedin.com/in/alecsavvy} \\
 alecjsavvy@gmail.com
+\end{minipage}
 
-\vspace{10pt}
+\vspace{6pt}
 
+% Block 2: Core Expertise on left, Technologies on right (50/50)
+\columnratio{0.5}
+\begin{paracol}{2}
+
+% Left column - Core Expertise
 \textbf{Core Expertise}
 \begin{itemize}
-  \item Distributed systems and protocol design across centralized services and decentralized networks
-  \item Cryptographic primitives, key management, and signing workflows
-  \item Content-addressed storage, replication, and data integrity
-  \item Payments, wallets, and on-chain/off-chain coordination
-  \item Event-driven architecture and message-based workflows
-  \item Production infrastructure and DevOps across centralized cloud and decentralized validator networks
+  \item Protocol design for centralized and decentralized systems
+  \item Cryptographic primitives and key management
+  \item Content-addressed storage and data integrity
+  \item Payments, wallets, and blockchain coordination
+  \item Event-driven architecture and messaging
+  \item Infrastructure and DevOps for various cloud and validator networks
 \end{itemize}
 
+% Switch to right column
+\switchcolumn
+
+% Right column - Technologies
+\textbf{Languages} \\
+Go, Rust, JavaScript/TypeScript, Scala, Python
+
 \vspace{6pt}
 
-\textbf{Technologies} \\
+\textbf{Protocols \& Systems} \\
+CometBFT, Solana, Ethereum, gRPC, ConnectRPC
 
-\textbf{Languages:} \texttt{Go, Rust, JavaScript/TypeScript, Scala, Python} \\
-\textbf{Protocols \& Systems:} \texttt{CometBFT, Solana, Ethereum, protobuf, gRPC, ConnectRPC, REST, OpenAPI} \\
-\textbf{Data:} \texttt{PostgreSQL, PebbleDB, SQLite, MongoDB} \\
-\textbf{Infra:} \texttt{Docker, Kubernetes, GitHub Actions, CircleCI, Pulumi, AWS, GCP}
+\vspace{6pt}
 
+\textbf{Data} \\
+PostgreSQL, PebbleDB, SQLite, MongoDB
 
-\vspace{12pt}
+\vspace{6pt}
 
+\textbf{Infra} \\
+Docker, Kubernetes, GitHub Actions, CircleCI, Pulumi
+
+\end{paracol}
+
+\vspace{8pt}
+
+% Block 3: Experience (full width)
 \textbf{Experience}
 
-\vspace{6pt}
+\vspace{4pt}
 
-\textbf{Audius} \hfill Jan. 2023 -- Dec. 2025 \\
-\textit{Senior Software Engineer}
+\textbf{Audius} \\
+\textit{Senior Software Engineer} \hfill Jan. 2023 -- Dec. 2025
 
-\href{https://github.com/AudiusProject/apps}{\textbf{Audius Protocol}}
+\vspace{4pt}
+\hspace{12pt}\begin{minipage}[t]{\dimexpr\linewidth-12pt}
+\href{https://github.com/AudiusProject/apps}{Audius Protocol}
 \begin{itemize}
   \item Designed and released a typescript-based plugin system for the Audius Protocol (Pedalboard)
   \item Moved high-throughput write and play paths off Solana into an in-house Layer 1, reducing RPC load and improving throughput
   \item Decreased on-call events from weekly to quarterly by moving to the OpenAudio Protocol
 \end{itemize}
+\end{minipage}
 
-\href{https://github.com/OpenAudio/go-openaudio}{\textbf{OpenAudio Protocol}}
+\vspace{2pt}
+\hspace{12pt}\begin{minipage}[t]{\dimexpr\linewidth-12pt}
+\href{https://github.com/OpenAudio/go-openaudio}{OpenAudio Protocol}
 \begin{itemize}
   \item Prototyped, implemented, and released the first Layer 1 protocol for music distribution and interoperability
-  \item Used CometBFT for consensus, PostgreSQL for metadata storage, and gRPC/ConnectRPC for node APIs
   \item Open-sourced and maintained validator, block explorer, and schema repositories
-  \item Migrated the Audius Protocol to OpenAudio with zero downtime and no user-facing disruption
-  \item Worked with the executives at Audius to release the OpenAudio \href{https://openaudio.org}{brand} and \href{https://twitter.com/OpenAudioProto}{community}
+  \item Migrated the Audius Protocol to OpenAudio with zero downtime
+  \item Released the OpenAudio \href{https://openaudio.org}{brand} and \href{https://twitter.com/OpenAudioProto}{community}
 \end{itemize}
+\end{minipage}
 
-\vspace{8pt}
+\vspace{4pt}
 
-\textbf{First Foundry} \hfill Apr. 2017 -- Jan. 2023 \\
-\textit{Lead/Senior Software Engineer}
+\textbf{First Foundry} \\
+\textit{Lead/Senior Software Engineer} \hfill Apr. 2017 -- Jan. 2023
 
-\textbf{Rally.io}
+\vspace{4pt}
+\hspace{12pt}\begin{minipage}[t]{\dimexpr\linewidth-12pt}
+Rally.io
 \begin{itemize}
   \item Built backend services for creator tokens using Akka, PostgreSQL, MongoDB, and Kafka
   \item Integrated with live Twitch event streams to power real-time games, leaderboards, and viewer rewards
-  \item Developed a Twitch extension and bot for viewers to interact with the platform and earn rewards
 \end{itemize}
+\end{minipage}
 
-\textbf{Forte.io}
+\vspace{2pt}
+\hspace{12pt}\begin{minipage}[t]{\dimexpr\linewidth-12pt}
+Forte.io
 \begin{itemize}
-  \item Developed blockchain tooling for game economies and external partner integrations using Rust, RabbitMQ, PostgreSQL, OpenEthereum(Parity), and Redis
-  \item Converted the entire project from synchronous rust to asynchronous rust, introduced tokio and async/await, and improved performance and scalability
-  \item Introduced Kafka/RabbitMQ for message-based multi-step workflows and event-driven architecture
-  \item Contributed to protocol-level architecture and API design
-  \item Developed Solidity smart contracts for game economies, including bonding curves, AMMs, staking, and ERC20/721/1155 tokens
+  \item Developed blockchain tooling for game economies using Rust, RabbitMQ, PostgreSQL, and OpenEthereum
+  \item Converted entire project from synchronous to asynchronous Rust, introducing tokio and async/await
+  \item Developed Solidity smart contracts including bonding curves, AMMs, staking, and ERC20/721/1155 tokens
 \end{itemize}
+\end{minipage}
+
+\vspace{4pt}
+
+\textbf{University of Oregon} \\
+\textit{Technology Service Desk Analyst} \hfill Apr. 2016 -- Jun. 2017
+
+\vspace{4pt}
+\hspace{12pt}\begin{minipage}[t]{\dimexpr\linewidth-12pt}
+Computing Center
+\begin{itemize}
+  \item Provided technical support for students, staff, and faculty through walk-in, phone, and email channels
+  \item Managed ticket queue using RT request tracking system
+  \item Maintained technical documentation in Confluence
+\end{itemize}
+\end{minipage}
+
+\vspace{4pt}
+
+\textbf{Resonant Systems} \\
+\textit{Founder / Principal Engineer} \hfill Dec. 2025 -- Present
+
+\vspace{4pt}
+\hspace{12pt}\begin{minipage}[t]{\dimexpr\linewidth-12pt}
+\href{https://github.com/alecsavvy/shreddr}{Shreddr}
+\begin{itemize}
+  \item Designed cryptographic ticketing and access-control systems for live events with payment and on-chain verification
+\end{itemize}
+\end{minipage}
+
+\vspace{2pt}
+\hspace{12pt}\begin{minipage}[t]{\dimexpr\linewidth-12pt}
+\href{https://github.com/alecsavvy/mojave}{Mojave}
+\begin{itemize}
+  \item Designing decentralized media distribution network with validator-operated storage and encrypted assets
+\end{itemize}
+\end{minipage}
+
+\vspace{2pt}
+\hspace{12pt}\begin{minipage}[t]{\dimexpr\linewidth-12pt}
+\href{https://github.com/alecsavvy/stashd}{Stashd}
+\begin{itemize}
+  \item Exploring cryptographic proof-based merch purchasing and distribution for live events
+\end{itemize}
+\end{minipage}
 
 \vspace{8pt}
 
-\textbf{Resonant Systems} \hfill Dec. 2025 -- Present \\
-\textit{Founder / Principal Engineer}
+\vspace{4pt}
+\textbf{Education} \hfill 
+\vspace{4pt}
 
-\href{https://github.com/alecsavvy/shreddr}{\textbf{Shreddr}}
-\begin{itemize}
-  \item Designed cryptographic ticketing and access-control systems for live events
-  \item Built backend services integrating payments and on-chain verification
-  \item Used Coinflow and Phantom Connect for payments and wallet integration
-\end{itemize}
-
-\href{https://github.com/alecsavvy/mojave}{\textbf{Mojave}}
-\begin{itemize}
-  \item Designing and implementing a decentralized media distribution network with validator-operated storage
-  \item Building CometBFT-based consensus, encrypted asset storage, and metadata pipelines  
-\end{itemize}
-
-\href{https://github.com/alecsavvy/stashd}{\textbf{Stashd}}
-\begin{itemize}
-  \item Exploring merch purchasing and distribution using cryptographic proofs for live events
-\end{itemize}
-
-\vspace{10pt}
-
-\textbf{Education} \\
-University of Oregon, B.S. Spatial Data Science and Technology (2018)
+\textbf{University of Oregon} \\
+\textit{B.S. Spatial Data Science} \hfill 2014 -- 2018
 
 \end{document}
