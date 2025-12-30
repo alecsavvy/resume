@@ -15,30 +15,28 @@ alecjsavvy@gmail.com
 
 **Core Expertise**
 
-- Distributed systems and protocol design across centralized services
-  and decentralized networks
+- Protocol design for centralized and decentralized systems
 
-- Cryptographic primitives, key management, and signing workflows
+- Cryptographic primitives and key management
 
-- Content-addressed storage, replication, and data integrity
+- Content-addressed storage and data integrity
 
-- Payments, wallets, and on-chain/off-chain coordination
+- Payments, wallets, and blockchain coordination
 
-- Event-driven architecture and message-based workflows
+- Event-driven architecture and messaging
 
-- Production infrastructure and DevOps across centralized cloud and
-  decentralized validator networks
+- Infrastructure and DevOps for cloud and validator networks
 
-**Languages:**\
+**Languages**\
 Go, Rust, JavaScript/TypeScript, Scala, Python
 
-**Protocols & Systems:**\
+**Protocols & Systems**\
 CometBFT, Solana, Ethereum, protobuf, gRPC, ConnectRPC, REST, OpenAPI
 
-**Data:**\
+**Data**\
 PostgreSQL, PebbleDB, SQLite, MongoDB
 
-**Infra:**\
+**Infra**\
 Docker, Kubernetes, GitHub Actions, CircleCI, Pulumi, AWS, GCP
 :::
 
